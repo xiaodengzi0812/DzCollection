@@ -26,4 +26,6 @@ public interface DzCollection<E> {
     boolean remove(Object o);
 
     void clear();
+
+    Object[] toArray();
 }

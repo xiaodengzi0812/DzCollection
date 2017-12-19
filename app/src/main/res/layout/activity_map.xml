@@ -8,30 +8,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
-        android:onClick="arrayListTest"
-        android:text="ArrayList"
-        android:textAllCaps="false" />
-
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="5dp"
-        android:onClick="linkedListTest"
-        android:text="LinkedList"
-        android:textAllCaps="false" />
-
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="5dp"
-        android:onClick="hashSetTest"
-        android:text="HashSet"
-        android:textAllCaps="false" />
-
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="5dp"
         android:onClick="hashMapTest"
         android:text="HashMap"
         android:textAllCaps="false" />
