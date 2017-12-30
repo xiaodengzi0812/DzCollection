@@ -19,6 +19,12 @@ import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Set;
 
+/**
+ * @Title: 测试二叉数的数据结构Activity
+ * @Author: djk
+ * @Time: 2017/12/20
+ * @Version:1.0.0
+ */
 public class DoubleTreeActivity extends AppCompatActivity {
 
     @Override

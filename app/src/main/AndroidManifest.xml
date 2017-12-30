@@ -10,7 +10,11 @@
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity"></activity>
         <activity android:name=".tree.DoubleTreeActivity"></activity>
-        <activity android:name=".tree.SearchTreeActivity">
+        <activity android:name=".tree.SearchTreeActivity"></activity>
+        <activity android:name=".graph.GraphActivity"></activity>
+        <activity android:name=".sort.SortActivity">
+        </activity>
+        <activity android:name=".algorithm.AlgorithmActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

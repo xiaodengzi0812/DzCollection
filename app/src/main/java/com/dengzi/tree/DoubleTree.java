@@ -141,6 +141,10 @@ public class DoubleTree {
         Log.e("dengzi", "前序遍历—非迭代 = " + preList.toString());
     }
 
+    /**
+     * 前序遍历——非迭代
+     * 运用栈,弹一个压两个
+     */
     public void preOrder2(Node node) {
         if (node == null) {
             return;
@@ -189,6 +193,10 @@ public class DoubleTree {
         Log.e("dengzi", "中序遍历—非迭代 = " + middleList.toString());
     }
 
+    /**
+     * 中序遍历——非迭代
+     * 运用栈,先把左树全部压入,弹出一个,压入右树的一串左树
+     */
     public void midOrder2(Node node) {
         if (node == null) {
             return;
@@ -242,6 +250,10 @@ public class DoubleTree {
         Log.e("dengzi", "后序遍历—非迭代 = " + postList.toString());
     }
 
+    /**
+     * 后序遍历——非迭代
+     * 运用栈,先把左树全部压入再压入最后一个左树的右树的一串左树,弹出一个,压入当前栈顶右树的一串左树(如果当前就是栈顶的右树则不压入)
+     */
     public void postOrder2(Node node) {
         if (node == null) {
             return;
