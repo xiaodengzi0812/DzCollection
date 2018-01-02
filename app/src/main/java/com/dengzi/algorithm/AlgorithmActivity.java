@@ -49,4 +49,9 @@ public class AlgorithmActivity extends AppCompatActivity {
         shareWine.doMethod(12, 0, 0);
     }
 
+    public void greedyPackClick(View view) {
+        GreedyPackage greedyPackage = new GreedyPackage();
+        greedyPackage.getMaxPack();
+    }
+
 }
