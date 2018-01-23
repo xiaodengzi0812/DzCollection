@@ -36,4 +36,12 @@
         android:text="二分法插入排序"
         android:textAllCaps="false" />
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:onClick="heapClick"
+        android:text="堆排序"
+        android:textAllCaps="false" />
+
 </LinearLayout>

@@ -49,4 +49,8 @@ public class SortActivity extends AppCompatActivity {
         SortUtil.binaryInsertSort();
     }
 
+    public void heapClick(View view) {
+        HeapSort.heapSort();
+    }
+
 }

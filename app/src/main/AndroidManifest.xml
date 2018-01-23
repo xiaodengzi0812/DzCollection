@@ -13,13 +13,14 @@
         <activity android:name=".tree.SearchTreeActivity"></activity>
         <activity android:name=".graph.GraphActivity"></activity>
         <activity android:name=".sort.SortActivity">
-        </activity>
-        <activity android:name=".algorithm.AlgorithmActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name=".algorithm.AlgorithmActivity">
+
         </activity>
     </application>
 
